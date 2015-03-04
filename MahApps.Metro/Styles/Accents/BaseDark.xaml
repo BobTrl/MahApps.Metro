@@ -18,6 +18,18 @@
 
     <Color x:Key="FlyoutColor">#FF2B2B2B</Color>
 
+    <!-- Start: custom color and brush resource additions-->
+
+    <Color x:Key="SecondaryWhiteColor">#0A0A0A</Color>
+    <Color x:Key="BorderColor">#0A0A0A</Color>
+    <Color x:Key="TitleColor">#BDBDBD</Color>
+
+    <SolidColorBrush x:Key="CustomControlBackgroundBrush" Color="{StaticResource SecondaryWhiteColor}" options:Freeze="True" />
+    <SolidColorBrush x:Key="WindowBorderColorBrush" Color="{StaticResource BorderColor}" options:Freeze="True" />
+    <SolidColorBrush x:Key="WindowTitleColorBrush" Color="{StaticResource TitleColor}" options:Freeze="True" />
+
+    <!-- End: custom color and brush resource additions-->
+
     <!-- re-set brushes too -->
     <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource BlackColor}" options:Freeze="True" />
     <SolidColorBrush x:Key="TextBrush" Color="{StaticResource BlackColor}" options:Freeze="True" />

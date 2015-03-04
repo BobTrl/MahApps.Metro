@@ -4,8 +4,8 @@
                     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
                     mc:Ignorable="options">
 
-    <Color x:Key="BlackColor">#FF000000</Color>
-    <Color x:Key="WhiteColor">#FFFFFFFF</Color>
+    <Color x:Key="BlackColor">#1C1C1C</Color>
+    <Color x:Key="WhiteColor">#929394</Color>
 
     <Color x:Key="Gray1">#FF333333</Color>
     <Color x:Key="Gray2">#FF7F7F7F</Color>
@@ -17,6 +17,18 @@
     <Color x:Key="GrayHover">#FF333333</Color>
 
     <Color x:Key="FlyoutColor">#FFFFFFFF</Color>
+
+    <!-- Start: custom color and brush resource additions-->
+    
+    <Color x:Key="SecondaryWhiteColor">#ECEEF0</Color>
+    <Color x:Key="BorderColor">#525252</Color>
+    <Color x:Key="TitleColor">#ECEEF0</Color>
+
+    <SolidColorBrush x:Key="CustomControlBackgroundBrush" Color="{StaticResource SecondaryWhiteColor}" options:Freeze="True" />
+    <SolidColorBrush x:Key="WindowBorderColorBrush" Color="{StaticResource BorderColor}" options:Freeze="True" />
+    <SolidColorBrush x:Key="WindowTitleColorBrush" Color="{StaticResource TitleColor}" options:Freeze="True" />
+
+    <!-- End: custom color and brush resource additions-->
 
     <!-- re-set brushes too -->
     <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource BlackColor}" options:Freeze="True" />
