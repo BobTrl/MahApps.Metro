@@ -280,7 +280,7 @@
             </Setter.Value>
         </Setter>
         <Setter Property="TitleForeground"
-                Value="{DynamicResource IdealForegroundColorBrush}" />
+                Value="{DynamicResource WindowTitleColorBrush}" />
         <Setter Property="Template"
                 Value="{StaticResource WindowTemplateKey}" />
         <Setter Property="TitleTemplate">
